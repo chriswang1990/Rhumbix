@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             BufferedReader reader = null;
             try {
                 Uri.Builder giphyUriBuilder = new Uri.Builder();
-                giphyUriBuilder.scheme("http").authority("api.giphy.com").appendPath("v1app")
+                giphyUriBuilder.scheme("http").authority("api.giphy.com").appendPath("v1")
                         .appendPath("gifs").appendPath("search")
                         .appendQueryParameter("q", searchTerm).appendQueryParameter("api_key",
                         "dc6zaTOxFJmzC").appendQueryParameter("limit", "1").build();
