@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-    <EditText
+    <AutoCompleteTextView
         android:id="@+id/search_term"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -26,5 +26,9 @@
         android:layout_height="wrap_content"
         android:text="Go"
         />
+        <TextView
+            android:id="@+id/returned_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 </RelativeLayout>
